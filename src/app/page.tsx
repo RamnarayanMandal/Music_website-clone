@@ -4,6 +4,9 @@ import FuturedCourse from "./component/FuturedCourse";
 import WhyChooseUs from "./component/whyChooseUs";
 import TestimonialCards from "./component/TestimonialCards";
 import UpcomingWebinars from "./component/UpcomingWebinars";
+import Instructor from "./component/Instructor";
+import { Footer } from "./component/Footer";
+
 
 
 export default function Home() {
@@ -15,6 +18,8 @@ export default function Home() {
   <WhyChooseUs/>
   <TestimonialCards/>
   <UpcomingWebinars/>
+  <Instructor/>
+  <Footer/>
 
   </main>
   );

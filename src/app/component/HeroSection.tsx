@@ -18,7 +18,7 @@ const herosection = () => {
         dive into art of Music courses and transfor
         your musical journey today. Whether you're join us to unclock your true potential.
        </p>
-       <div className='mt-4'>
+       <div className='mt-20'>
         <Link href={"/courses"}>
             
             <Button
