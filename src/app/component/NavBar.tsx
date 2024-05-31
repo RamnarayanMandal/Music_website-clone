@@ -8,7 +8,7 @@ import Link from 'next/link';
 const NavBar = ({ className }: { className?: string }) => {
     const [active, setActive] = useState<string | null>(null);
   return (
-    <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}>
+    <div className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 lg:text-base md:text-base text-sm", className)}>
       <Menu setActive={setActive}>
         <Link href={"/"}>
         <MenuItem setActive={setActive} active={active} item="Home">
@@ -26,7 +26,17 @@ const NavBar = ({ className }: { className?: string }) => {
         
         </MenuItem>
         <Link href="/contacts">
-        <MenuItem setActive={setActive} active={active} item="Contacts us">
+        <MenuItem setActive={setActive} active={active} item="Contacts us" >
+        
+        </MenuItem>
+        </Link>
+        <Link href="/login">
+        <MenuItem setActive={setActive} active={active} item="Login">
+        
+        </MenuItem>
+        </Link>
+        <Link href="/singin">
+        <MenuItem setActive={setActive} active={active} item="Singin">
         
         </MenuItem>
         </Link>
