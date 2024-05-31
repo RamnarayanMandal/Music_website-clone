@@ -36,11 +36,11 @@ const LabelInputContainer = ({
 
 const Page = () => {
   return (
-    <div className="min-h-screen bg-black  pt-36 ">
+    <div className="min-h-screen bg-black  pt-36  ">
       <h1 className="text-lg md:text-7xl text-center font-sans font-bold mb-8 text-white">
         Contact Us
       </h1>
-      <div className="max-w-screen-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black ">
+      <div className="max-w-screen-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black relative z-40">
         <form className=" w-full ">
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2 mb-4">
             <LabelInputContainer>
